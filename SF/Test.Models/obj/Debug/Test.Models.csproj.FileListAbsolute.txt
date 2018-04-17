@@ -1,0 +1,8 @@
+E:\Git\Source\SF\SF\Test.Models\bin\Debug\Test.Models.dll
+E:\Git\Source\SF\SF\Test.Models\bin\Debug\Test.Models.pdb
+E:\Git\Source\SF\SF\Test.Models\bin\Debug\SF.Core.dll
+E:\Git\Source\SF\SF\Test.Models\bin\Debug\SF.Core.pdb
+E:\Git\Source\SF\SF\Test.Models\obj\Debug\Test.Models.csprojResolveAssemblyReference.cache
+E:\Git\Source\SF\SF\Test.Models\obj\Debug\Test.Models.csproj.CoreCompileInputs.cache
+E:\Git\Source\SF\SF\Test.Models\obj\Debug\Test.Models.dll
+E:\Git\Source\SF\SF\Test.Models\obj\Debug\Test.Models.pdb

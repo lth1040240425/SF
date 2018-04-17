@@ -1,0 +1,14 @@
+E:\Git\Source\SF\SF\SF.AutoFac\bin\Debug\SF.AutoFac.dll
+E:\Git\Source\SF\SF\SF.AutoFac\bin\Debug\SF.AutoFac.pdb
+E:\Git\Source\SF\SF\SF.AutoFac\bin\Debug\Autofac.dll
+E:\Git\Source\SF\SF\SF.AutoFac\bin\Debug\SF.Core.dll
+E:\Git\Source\SF\SF\SF.AutoFac\bin\Debug\SF.Utility.dll
+E:\Git\Source\SF\SF\SF.AutoFac\bin\Debug\Newtonsoft.Json.dll
+E:\Git\Source\SF\SF\SF.AutoFac\bin\Debug\SF.Core.pdb
+E:\Git\Source\SF\SF\SF.AutoFac\bin\Debug\SF.Utility.pdb
+E:\Git\Source\SF\SF\SF.AutoFac\bin\Debug\Autofac.xml
+E:\Git\Source\SF\SF\SF.AutoFac\bin\Debug\Newtonsoft.Json.xml
+E:\Git\Source\SF\SF\SF.AutoFac\obj\Debug\SF.AutoFac.csprojResolveAssemblyReference.cache
+E:\Git\Source\SF\SF\SF.AutoFac\obj\Debug\SF.AutoFac.csproj.CoreCompileInputs.cache
+E:\Git\Source\SF\SF\SF.AutoFac\obj\Debug\SF.AutoFac.dll
+E:\Git\Source\SF\SF\SF.AutoFac\obj\Debug\SF.AutoFac.pdb

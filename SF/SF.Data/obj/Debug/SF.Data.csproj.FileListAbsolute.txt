@@ -1,0 +1,17 @@
+E:\Git\Source\SF\SF\SF.Data\bin\Debug\SF.Data.dll
+E:\Git\Source\SF\SF\SF.Data\bin\Debug\SF.Data.pdb
+E:\Git\Source\SF\SF\SF.Data\bin\Debug\SF.Core.dll
+E:\Git\Source\SF\SF\SF.Data\bin\Debug\SF.Utility.dll
+E:\Git\Source\SF\SF\SF.Data\bin\Debug\SqlSugar.dll
+E:\Git\Source\SF\SF\SF.Data\bin\Debug\Newtonsoft.Json.dll
+E:\Git\Source\SF\SF\SF.Data\bin\Debug\Oracle.ManagedDataAccess.dll
+E:\Git\Source\SF\SF\SF.Data\bin\Debug\System.Data.SQLite.dll
+E:\Git\Source\SF\SF\SF.Data\bin\Debug\MySql.Data.dll
+E:\Git\Source\SF\SF\SF.Data\bin\Debug\SqlSugar.pdb
+E:\Git\Source\SF\SF\SF.Data\bin\Debug\SF.Core.pdb
+E:\Git\Source\SF\SF\SF.Data\bin\Debug\SF.Utility.pdb
+E:\Git\Source\SF\SF\SF.Data\bin\Debug\Newtonsoft.Json.xml
+E:\Git\Source\SF\SF\SF.Data\obj\Debug\SF.Data.csprojResolveAssemblyReference.cache
+E:\Git\Source\SF\SF\SF.Data\obj\Debug\SF.Data.csproj.CoreCompileInputs.cache
+E:\Git\Source\SF\SF\SF.Data\obj\Debug\SF.Data.dll
+E:\Git\Source\SF\SF\SF.Data\obj\Debug\SF.Data.pdb

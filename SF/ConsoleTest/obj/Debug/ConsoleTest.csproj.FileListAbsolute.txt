@@ -1,0 +1,7 @@
+E:\Git\Source\SF\SF\ConsoleTest\bin\Debug\ConsoleTest.exe.config
+E:\Git\Source\SF\SF\ConsoleTest\bin\Debug\ConsoleTest.exe
+E:\Git\Source\SF\SF\ConsoleTest\bin\Debug\ConsoleTest.pdb
+E:\Git\Source\SF\SF\ConsoleTest\obj\Debug\ConsoleTest.csprojResolveAssemblyReference.cache
+E:\Git\Source\SF\SF\ConsoleTest\obj\Debug\ConsoleTest.csproj.CoreCompileInputs.cache
+E:\Git\Source\SF\SF\ConsoleTest\obj\Debug\ConsoleTest.exe
+E:\Git\Source\SF\SF\ConsoleTest\obj\Debug\ConsoleTest.pdb

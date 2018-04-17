@@ -1,0 +1,2 @@
+E:\Git\Source\SF\SF\WebTest\obj\Debug\WebTest.csprojResolveAssemblyReference.cache
+E:\Git\Source\SF\SF\WebTest\obj\Debug\WebTest.csproj.CoreCompileInputs.cache
