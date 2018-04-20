@@ -11,6 +11,9 @@ using SF.AutoFac;
 using SF.Data;
 using SqlSugar;
 using Autofac.Integration.WebApi;
+using SF.Core.Reflection;
+using Test.Service;
+using SF.Core.Dependency;
 
 namespace WebTest
 {
@@ -29,8 +32,14 @@ namespace WebTest
             }, q =>
             {
                 q.Register(c => new SFContext("default")).InstancePerLifetimeScope();
+                var assemblies = new DirectoryAssemblyFinder().FindAll();
+                q.RegisterApiControllers(assemblies).AsSelf().PropertiesAutowired();
+                q.RegisterWebApiFilterProvider(GlobalConfiguration.Configuration);
+                q.RegisterWebApiModelBinderProvider();
                 //q.RegisterApiControllers()
             });
+            var tt = AutoFacHelper.ServiceProvider.GetService<IStudentManageService>();
+            var t = tt.GetStu(1);
         }
     }
 }
