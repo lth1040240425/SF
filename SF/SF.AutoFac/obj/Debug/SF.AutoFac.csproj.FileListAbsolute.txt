@@ -12,3 +12,17 @@ E:\Git\Source\SF\SF\SF.AutoFac\obj\Debug\SF.AutoFac.csprojResolveAssemblyReferen
 E:\Git\Source\SF\SF\SF.AutoFac\obj\Debug\SF.AutoFac.csproj.CoreCompileInputs.cache
 E:\Git\Source\SF\SF\SF.AutoFac\obj\Debug\SF.AutoFac.dll
 E:\Git\Source\SF\SF\SF.AutoFac\obj\Debug\SF.AutoFac.pdb
+G:\Git\Source\SF\SF\SF.AutoFac\bin\Debug\SF.AutoFac.dll
+G:\Git\Source\SF\SF\SF.AutoFac\bin\Debug\SF.AutoFac.pdb
+G:\Git\Source\SF\SF\SF.AutoFac\bin\Debug\Autofac.dll
+G:\Git\Source\SF\SF\SF.AutoFac\bin\Debug\SF.Core.dll
+G:\Git\Source\SF\SF\SF.AutoFac\bin\Debug\SF.Utility.dll
+G:\Git\Source\SF\SF\SF.AutoFac\bin\Debug\Newtonsoft.Json.dll
+G:\Git\Source\SF\SF\SF.AutoFac\bin\Debug\SF.Core.pdb
+G:\Git\Source\SF\SF\SF.AutoFac\bin\Debug\SF.Utility.pdb
+G:\Git\Source\SF\SF\SF.AutoFac\bin\Debug\Autofac.xml
+G:\Git\Source\SF\SF\SF.AutoFac\bin\Debug\Newtonsoft.Json.xml
+G:\Git\Source\SF\SF\SF.AutoFac\obj\Debug\SF.AutoFac.csprojResolveAssemblyReference.cache
+G:\Git\Source\SF\SF\SF.AutoFac\obj\Debug\SF.AutoFac.csproj.CoreCompileInputs.cache
+G:\Git\Source\SF\SF\SF.AutoFac\obj\Debug\SF.AutoFac.dll
+G:\Git\Source\SF\SF\SF.AutoFac\obj\Debug\SF.AutoFac.pdb

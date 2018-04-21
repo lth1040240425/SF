@@ -10,3 +10,15 @@ E:\Git\Source\SF\SF\SF.Core\obj\Debug\SF.Core.csproj.GenerateResource.Cache
 E:\Git\Source\SF\SF\SF.Core\obj\Debug\SF.Core.csproj.CoreCompileInputs.cache
 E:\Git\Source\SF\SF\SF.Core\obj\Debug\SF.Core.dll
 E:\Git\Source\SF\SF\SF.Core\obj\Debug\SF.Core.pdb
+G:\Git\Source\SF\SF\SF.Core\bin\Debug\SF.Core.dll
+G:\Git\Source\SF\SF\SF.Core\bin\Debug\SF.Core.pdb
+G:\Git\Source\SF\SF\SF.Core\bin\Debug\SF.Utility.dll
+G:\Git\Source\SF\SF\SF.Core\bin\Debug\Newtonsoft.Json.dll
+G:\Git\Source\SF\SF\SF.Core\bin\Debug\SF.Utility.pdb
+G:\Git\Source\SF\SF\SF.Core\bin\Debug\Newtonsoft.Json.xml
+G:\Git\Source\SF\SF\SF.Core\obj\Debug\SF.Core.csprojResolveAssemblyReference.cache
+G:\Git\Source\SF\SF\SF.Core\obj\Debug\SF.Core.Properties.Resources.resources
+G:\Git\Source\SF\SF\SF.Core\obj\Debug\SF.Core.csproj.GenerateResource.Cache
+G:\Git\Source\SF\SF\SF.Core\obj\Debug\SF.Core.csproj.CoreCompileInputs.cache
+G:\Git\Source\SF\SF\SF.Core\obj\Debug\SF.Core.dll
+G:\Git\Source\SF\SF\SF.Core\obj\Debug\SF.Core.pdb

@@ -32,10 +32,10 @@ namespace WebTest
             }, q =>
             {
                 q.Register(c => new SFContext("default")).InstancePerLifetimeScope();
-                var assemblies = new DirectoryAssemblyFinder().FindAll();
-                q.RegisterApiControllers(assemblies).AsSelf().PropertiesAutowired();
-                q.RegisterWebApiFilterProvider(GlobalConfiguration.Configuration);
-                q.RegisterWebApiModelBinderProvider();
+                //var assemblies = new DirectoryAssemblyFinder().FindAll();
+                //q.RegisterApiControllers(assemblies).AsSelf().PropertiesAutowired();
+                //q.RegisterWebApiFilterProvider(GlobalConfiguration.Configuration);
+                //q.RegisterWebApiModelBinderProvider();
                 //q.RegisterApiControllers()
             });
             var tt = AutoFacHelper.ServiceProvider.GetService<IStudentManageService>();

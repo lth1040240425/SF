@@ -32,6 +32,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Autofac, Version=4.5.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da, processorArchitecture=MSIL">
+      <HintPath>..\packages\Autofac.4.5.0\lib\net45\Autofac.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=6.9.11.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>..\packages\MySql.Data.6.9.11\lib\net45\MySql.Data.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -47,6 +53,37 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\SqlSugar\Src\Asp.Net\SqlSugar\SqlSugar.csproj">
+      <Project>{489bb790-226c-4fad-8d1e-51d72a7ff8e5}</Project>
+      <Name>SqlSugar</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SF.AutoFac\SF.AutoFac.csproj">
+      <Project>{510fb8e7-a43b-4428-9f4b-e67aae2abef6}</Project>
+      <Name>SF.AutoFac</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SF.Core\SF.Core.csproj">
+      <Project>{b39a3315-4721-444a-ab69-9f24cdf04d25}</Project>
+      <Name>SF.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SF.Data\SF.Data.csproj">
+      <Project>{0d25dc38-89e0-4447-b6c3-e154d7a8a957}</Project>
+      <Name>SF.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SF.Utility\SF.Utility.csproj">
+      <Project>{93ccaf07-e5ae-44ad-a4a9-5efe68cc3477}</Project>
+      <Name>SF.Utility</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Test.Models\Test.Models.csproj">
+      <Project>{9be8ba29-5f26-4284-8c86-b419628b38ec}</Project>
+      <Name>Test.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Test.Service\Test.Service.csproj">
+      <Project>{679cae7e-7268-4093-874f-9618d0d04c8a}</Project>
+      <Name>Test.Service</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
