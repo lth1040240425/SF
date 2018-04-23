@@ -1,23 +1,20 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.Remoting.Messaging;
 using System.Text;
 using System.Threading.Tasks;
-using Autofac;
+using System.Web.Http;
+using System.Web.Http.Dependencies;
 using SF.Core.Dependency;
 
 namespace SF.AutoFac
 {
     /// <summary>
-    /// 本地应用依赖注入解析
+    /// WebApi依赖注入对象解析器
     /// </summary>
-    public class IocResolver : IIocResolver
+    public class WebApiIocResolver : IIocResolver
     {
-        /// <summary>
-        /// 获取 依赖注入容器
-        /// </summary>
-        internal static IContainer Container { get; set; }
-
         /// <summary>
         /// 获取指定类型的实例
         /// </summary>
@@ -35,7 +32,12 @@ namespace SF.AutoFac
         /// <returns></returns>
         public object Resolve(Type type)
         {
-            return Container.ResolveOptional(type);
+            IDependencyScope scope = CallContext.LogicalGetData("sf:webapi_lifetime_scope") as IDependencyScope;
+            if (scope != null)
+            {
+                return scope.GetService(type);
+            }
+            return GlobalConfiguration.Configuration.DependencyResolver.GetService(type);
         }
 
         /// <summary>
@@ -45,7 +47,7 @@ namespace SF.AutoFac
         /// <returns></returns>
         public IEnumerable<T> Resolves<T>()
         {
-            return Container.ResolveOptional<IEnumerable<T>>();
+            return Resolves(typeof(T)).Cast<T>();
         }
 
         /// <summary>
@@ -55,13 +57,7 @@ namespace SF.AutoFac
         /// <returns></returns>
         public IEnumerable<object> Resolves(Type type)
         {
-            Type typeToResolve = typeof(IEnumerable<>).MakeGenericType(type);
-            Array array = Container.ResolveOptional(typeToResolve) as Array;
-            if (array != null)
-            {
-                return array.Cast<object>();
-            }
-            return new object[0];
+            return GlobalConfiguration.Configuration.DependencyResolver.GetServices(type);
         }
     }
 }

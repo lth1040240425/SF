@@ -1,13 +1,3 @@
-E:\Git\Source\SF\SF\SF.Utility\bin\Debug\SF.Utility.dll
-E:\Git\Source\SF\SF\SF.Utility\bin\Debug\SF.Utility.pdb
-E:\Git\Source\SF\SF\SF.Utility\bin\Debug\Newtonsoft.Json.dll
-E:\Git\Source\SF\SF\SF.Utility\bin\Debug\Newtonsoft.Json.xml
-E:\Git\Source\SF\SF\SF.Utility\obj\Debug\SF.Utility.csprojResolveAssemblyReference.cache
-E:\Git\Source\SF\SF\SF.Utility\obj\Debug\SF.Utility.Properties.Resources.resources
-E:\Git\Source\SF\SF\SF.Utility\obj\Debug\SF.Utility.csproj.GenerateResource.Cache
-E:\Git\Source\SF\SF\SF.Utility\obj\Debug\SF.Utility.csproj.CoreCompileInputs.cache
-E:\Git\Source\SF\SF\SF.Utility\obj\Debug\SF.Utility.dll
-E:\Git\Source\SF\SF\SF.Utility\obj\Debug\SF.Utility.pdb
 G:\Git\Source\SF\SF\SF.Utility\bin\Debug\SF.Utility.dll
 G:\Git\Source\SF\SF\SF.Utility\bin\Debug\SF.Utility.pdb
 G:\Git\Source\SF\SF\SF.Utility\bin\Debug\Newtonsoft.Json.dll
@@ -18,3 +8,13 @@ G:\Git\Source\SF\SF\SF.Utility\obj\Debug\SF.Utility.csproj.GenerateResource.Cach
 G:\Git\Source\SF\SF\SF.Utility\obj\Debug\SF.Utility.csproj.CoreCompileInputs.cache
 G:\Git\Source\SF\SF\SF.Utility\obj\Debug\SF.Utility.dll
 G:\Git\Source\SF\SF\SF.Utility\obj\Debug\SF.Utility.pdb
+E:\Git\Source\SF\SF\SF.Utility\bin\Debug\SF.Utility.dll
+E:\Git\Source\SF\SF\SF.Utility\bin\Debug\SF.Utility.pdb
+E:\Git\Source\SF\SF\SF.Utility\bin\Debug\Newtonsoft.Json.dll
+E:\Git\Source\SF\SF\SF.Utility\bin\Debug\Newtonsoft.Json.xml
+E:\Git\Source\SF\SF\SF.Utility\obj\Debug\SF.Utility.Properties.Resources.resources
+E:\Git\Source\SF\SF\SF.Utility\obj\Debug\SF.Utility.csproj.GenerateResource.Cache
+E:\Git\Source\SF\SF\SF.Utility\obj\Debug\SF.Utility.csproj.CoreCompileInputs.cache
+E:\Git\Source\SF\SF\SF.Utility\obj\Debug\SF.Utility.dll
+E:\Git\Source\SF\SF\SF.Utility\obj\Debug\SF.Utility.pdb
+E:\Git\Source\SF\SF\SF.Utility\obj\Debug\SF.Utility.csprojResolveAssemblyReference.cache

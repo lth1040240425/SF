@@ -13,13 +13,12 @@ namespace SF.AutoFac
         private static IServiceProvider serviceProvider { get; set; }
         public static IServiceProvider ServiceProvider { get { return serviceProvider; } }
 
-        public static void Init(Action<IServiceCollection> actionServiceCollection, Action<ContainerBuilder> actionContainerBuilder)
+        public static void Init(Action<IServiceCollection> actionServiceCollection, Action<ContainerBuilder> actionContainerBuilder,ProjectType projectType=ProjectType.WebApi)
         {
             IServicesBuilder builder = new ServicesBuilder(new ServiceBuildOptions());
             IServiceCollection services = builder.Build();
             actionServiceCollection(services);//添加自定义注入
-            IIocBuilder iocBuilder = new AutofacIocBuilder(services, actionContainerBuilder);
-
+            IIocBuilder iocBuilder = new AutofacIocBuilder(services, actionContainerBuilder, projectType);
             serviceProvider = iocBuilder.Build();
         }
     }
